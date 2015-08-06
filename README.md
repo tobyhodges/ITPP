@@ -16,4 +16,4 @@ We recommend using the [Anaconda distribution](https://store.continuum.io/cshop/
 The main course workbook (IntroductionToPythonProgramming.ipynb) can be viewed in nbviewer [here](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/master/IntroductionToPythonProgramming.ipynb).  
 The other IPython Notebook, WS3exercise.ipynb, is a worked-through solution to the main exercises in worksheet 3 of the workbook. This can be viewed in nbviewer [here](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/master/WS3exercise.ipynb). If you are taking the course, or working through the materials on your own, try to find your own solution to these exercises, and then use this ipynb if you get stuck, or want to compare your results to ours.
 
-All materials written by Toby Hodges (European Molcular Biology Laboratory) and Peter D. Ashton (University of York).
+All materials written by Toby Hodges (European Molecular Biology Laboratory) and Peter D. Ashton (University of York).
