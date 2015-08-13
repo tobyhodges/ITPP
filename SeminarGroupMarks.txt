@@ -1,0 +1,24 @@
+Group A
+Sarah	78
+Richard	65
+Matthew	53
+Fiona	71
+Sally	43
+Samuel	80
+
+Group B
+Richard	57
+Sally	89
+Sandy	75
+Peter	77
+Rebecca	62
+Steve	71
+Lesley	75
+Stuart	80
+
+Group C
+Simon	47
+Laura	91
+Gareth	74
+Alan	61
+Helen	74
