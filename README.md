@@ -1,7 +1,13 @@
 ## Introduction to Python Programming
-Materials for the Introduction to Python Programming course.
+###### Materials for a course providing an introduction to programming in Python.
 
-To view the course workbook through your browser, click [here](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/IntroductionToPythonProgramming.ipynb).
+The course materials are divided into sections. You can use the links below to view each section in your browser. There is an overlap between the material in section 3 and in sections 4 & 5, which we recommend that you choose between. 
+
+1. [Getting Started](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/1_GettingStarted.ipynb)
+2. [Beginning Programming](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/BeginningProgramming.ipynb)
+3. [Input and Output](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/3_InputAndOutputMPL.ipynb)
+4. [Nested Data Structures](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/4_NestedDataStructures.ipynb)
+5. [Plotting Data With Bokeh](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/5_PlottingDataWithBokeh.ipynb)
 
 This course provides an introduction to programming with the Python language. The course material is suitable for complete beginners, with no previous programming experience or knowledge required or assumed.  
 The materials are split into broad sections, which we call worksheets, containing exercises for you to try and most of the information that you will need to complete them. You can always get more information on any topic/object type/function etc. by looking at the Python help pages - type `help(object)` in the Python shell to get help on _object_ - or the 'cheat sheet', or by searching online. The online Python documentation (for [version 2.7](https://docs.python.org/2/) or [version 3](https://docs.python.org/3/)), people's previous questions on [StackOverflow](http://stackoverflow.com), and a lot of the module homepages are very good places to start.  
