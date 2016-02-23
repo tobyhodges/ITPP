@@ -1,6 +1,8 @@
 ## Introduction to Python Programming
 ###### Materials for a course providing an introduction to programming in Python.
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tobyhodges/ITPP)
+
 The course materials are divided into sections. You can use the links below to view each section in your browser. There is an overlap between the material in section 3 and in sections 4 & 5, which we recommend that you choose between. 
 
 1. [Getting Started](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/1_GettingStarted.ipynb) - an introduction to the basics of the language
