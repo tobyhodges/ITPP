@@ -11,12 +11,12 @@ The course materials are divided into sections. You can use the links below to v
 4. [Nested Data Structures](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/4_NestedDataStructures.ipynb) - an introduction to creating and working with more complex data structures
 5. [Plotting Data With Bokeh](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/5_PlottingDataWithBokeh.ipynb) - creating interactive plots with the `bokeh` library
 
-###### The Language
+##### The Language
 Python is a high-level programming language, which is highly versatile, relatively accessible, and extremely well-supported. If you've never programmed before, Python is a great language to start with. A couple of the big reasons for this are: by the standards of programming languages, it is easy for humans to read; and, instead of spending a lot of time worrying about defining rigid types and arranging things in multiple files, it is quick to get started with actually _doing things_ with Python. 
 
 This course focuses on handling tabular data and creating plots, but, after learning some of the language, you could use Python for a huge range of other tasks, such as: automating repetitive tasks; generating web content; processing images; creating cross-platform GUI applications; or writing programs to quickly perform complex analyses. These are just a few examples of the possibilities. 
 
-###### The Course
+##### The Course
 This course provides an introduction to programming with the Python language. The course material is suitable for complete beginners, with no previous programming experience or knowledge required or assumed.  
 
 The course was first written for a target audience of life scientists, and this is reflected in the simplistic example dataset used for the plotting exercises, but the material itself is designed to be accessible also for people with no scientific background, and the skills taught can be applied to a _much_ wider range of disciplines. Some knowledge of foundational mathematics is assumed.
