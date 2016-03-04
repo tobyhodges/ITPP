@@ -42,4 +42,8 @@ As well as the main notebooks, we provide walkthroughs of the equivalent plottin
 [Exercise 5.6](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/Exercise5_6WalkthroughBokeh.ipynb)  
 If you are taking the course, or working through the materials on your own, try to find your own solution to these exercises, and then use this ipynb if you get stuck, or want to compare your results to ours.
 
-All materials written by Toby Hodges (European Molecular Biology Laboratory) and Peter D. Ashton (University of York).
+All materials written by:
+* [Peter D Ashton](https://www.york.ac.uk/biology/research/bioinformatics-biosystems/peter-d-ashton/) (Department of Biology, University of York, UK)
+* [Holger Dinkel](https://git.embl.de/u/dinkel) (Gibson Team, European Molecular Biology Laboratory)
+* [Toby Hodges](https://www.github.com/tobyhodges) (Zeller Team, European Molecular Biology Laboratory)
+* [Karin Sasaki](https://git.embl.de/u/valencia) (Centre for Biological Modelling, European Molecular Biology Laboratory)
