@@ -1,15 +1,17 @@
 ## Introduction to Python Programming
 ###### Materials for a course providing an introduction to programming in Python.
 
+__Click the button below to launch the course materials in an interactive environment, thanks to the [Binder](http://mybinder.org) service from [The Freeman Lab](http://thefreemanlab.com).__ (Current build of Binder materials: 22-Mar-2016)  
+
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tobyhodges/ITPP)
 
 The course materials are divided into sections. You can use the links below to view each section in your browser. There is an overlap between the material in section 3 and in sections 4 & 5, which we recommend that you choose between. 
 
-1. [Getting Started](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/1_GettingStarted.ipynb) - an introduction to the basics of the language
-2. [Beginning Programming](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/2_BeginningProgramming.ipynb) - exploring some of the central concepts and operations of programming
-3. [Input and Output](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/3_InputAndOutputMPL.ipynb) - reading in, handling, and plotting data with the `matplotlib` library
-4. [Nested Data Structures](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/4_NestedDataStructures.ipynb) - an introduction to creating and working with more complex data structures
-5. [Plotting Data With Bokeh](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/5_PlottingDataWithBokeh.ipynb) - creating interactive plots with the `bokeh` library
+1. [Getting Started](http://nbviewer.jupyter.org/github/tobyhodges/ITPP/blob/master/1_GettingStarted.ipynb) - an introduction to the basics of the language
+2. [Beginning Programming](http://nbviewer.jupyter.org/github/tobyhodges/ITPP/blob/master/2_BeginningProgramming.ipynb) - exploring some of the central concepts and operations of programming
+3. [Input and Output](http://nbviewer.jupyter.org/github/tobyhodges/ITPP/blob/master/3_InputAndOutputMPL.ipynb) - reading in, handling, and plotting data with the `matplotlib` library
+4. [Nested Data Structures](http://nbviewer.jupyter.org/github/tobyhodges/ITPP/blob/master/4_NestedDataStructures.ipynb) - an introduction to creating and working with more complex data structures
+5. [Plotting Data With Bokeh](http://nbviewer.jupyter.org/github/tobyhodges/ITPP/blob/master/5_PlottingDataWithBokeh.ipynb) - creating interactive plots with the `bokeh` library
 
 ##### The Language
 Python is a high-level programming language, which is highly versatile, relatively accessible, and extremely well-supported. If you've never programmed before, Python is a great language to start with. A couple of the big reasons for this are: by the standards of programming languages, it is easy for humans to read; and, instead of spending a lot of time worrying about defining rigid types and arranging things in multiple files, it is quick to get started with actually _doing things_ with Python. 
@@ -38,8 +40,8 @@ If you work through the materials, you will learn:
 We recommend using the [Anaconda distribution](https://store.continuum.io/cshop/anaconda/) of Python. It's free and comes with a large number of additional modules included ready for importing into your scripts, IPython shell and notebook interfaces, a powerful Python text editor (Spyder), and a good package manager, _conda_, for updating and installing packages.   
 
 As well as the main notebooks, we provide walkthroughs of the equivalent plotting exercises in Sections 3 and 5, for your reference.  
-[Exercise 3.6](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/Exercise3_6WalkthroughMPL.ipynb)  
-[Exercise 5.6](http://nbviewer.ipython.org/github/tobyhodges/ITPP/blob/v2/Exercise5_6WalkthroughBokeh.ipynb)  
+[Exercise 3.6](http://nbviewer.jupyter.org/github/tobyhodges/ITPP/blob/master/Exercise3_6WalkthroughMPL.ipynb)  
+[Exercise 5.6](http://nbviewer.jupyter.org/github/tobyhodges/ITPP/blob/master/Exercise5_6WalkthroughBokeh.ipynb)  
 If you are taking the course, or working through the materials on your own, try to find your own solution to these exercises, and then use this ipynb if you get stuck, or want to compare your results to ours.
 
 All materials written by:
