@@ -39,6 +39,7 @@ def main ():
     out_filename = os.path.basename(os.getcwd()) + '_handout.ipynb'
     tex_filename = os.path.splitext(out_filename)[0] + '.tex'
     pdf_filename = os.path.splitext(out_filename)[0] + '.pdf'
+    pdf_cheatsheet_filename = 'CheatSheet.pdf'
     title_pdf_filename = os.path.basename(os.getcwd()) + '_title.pdf'
 
 # Combine all ipynb notebooks into one (merge JSON 'cells'):
@@ -64,7 +65,7 @@ def main ():
         tex = texfile.read()
 
     tex = re.sub("\\\section\{.*?\}", "", tex, flags=re.DOTALL)  # Delete all sections (would be duplicate)
-    tex = re.sub("\\\subsection\{\d+\. ", "\\\chapter{", tex) # rename subsections to chapters
+    tex = re.sub("\\\subsection\{(\d+\. )?", "\\\chapter{", tex) # rename numbered subsections to chapters
     tex = re.sub("\\\documentclass\{.*?\}", "\\\documentclass{report}", tex) # change documentclass to report
     tex = re.sub("\\\maketitle", "\\\\tableofcontents", tex) # include tableof
 
@@ -73,6 +74,8 @@ def main ():
 
     subprocess.call("pdflatex -interaction=nonstopmode %s" % tex_filename, shell=True)
 
+    pdf_joined_filename = os.path.splitext(pdf_filename)[0] + '-joined.pdf'
+
     if not os.path.isfile(pdf_filename):
         print "PDF file '%s' does not exist! Stopping." % pdf_filename
         sys.exit(1)
@@ -80,9 +83,8 @@ def main ():
         print "PDF file '%s' does not exist! Stopping." % title_pdf_filename
         sys.exit(1)
     else:
-        subprocess.call("pdfjoin --paper a4paper --no-landscape --twoside --rotateoversize false %s %s"% (title_pdf_filename, pdf_filename), shell=True)
+        subprocess.call("pdfjoin --paper a4paper --no-landscape --twoside --rotateoversize false --outfile %s %s %s %s"% (pdf_joined_filename, title_pdf_filename, pdf_filename, pdf_cheatsheet_filename ), shell=True)
 
-    pdf_joined_filename = os.path.splitext(pdf_filename)[0] + '-joined.pdf'
     print pdf_joined_filename 
     if os.path.isfile(pdf_joined_filename):
         print "\n\nPDF file '%s' was generated...\n\n" % pdf_joined_filename
