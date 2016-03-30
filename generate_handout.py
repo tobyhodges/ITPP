@@ -84,7 +84,7 @@ def main ():
         sys.exit(1)
     else:
 #        subprocess.call("pdfjoin --paper a4paper --no-landscape --twoside --rotateoversize false --outfile %s %s %s %s"% (pdf_joined_filename, title_pdf_filename, pdf_filename, pdf_cheatsheet_filename ), shell=True)
-        subprocess.call("pdfjoin --paper a4paper -no-landscape --twoside --rotateoversize --outfile %s %s %s" % (pdf_joined_filename, title_pdf_filename, pdf_filename), shell=True)
+        subprocess.call("pdfjoin --paper a4paper --no-landscape --twoside --rotateoversize false --outfile %s %s %s" % (pdf_joined_filename, title_pdf_filename, pdf_filename), shell=True)
     print(pdf_joined_filename )
     if os.path.isfile(pdf_joined_filename):
         print("\n\nPDF file '%s' was generated...\n\n" % pdf_joined_filename)
