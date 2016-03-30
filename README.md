@@ -1,7 +1,7 @@
 ## Introduction to Python Programming
 ###### Materials for a course providing an introduction to programming in Python.
 
-__Click the button below to launch the course materials in an interactive environment, thanks to the [Binder](http://mybinder.org) service from [The Freeman Lab](http://thefreemanlab.com).__ (Current build of Binder materials: 22-Mar-2016)  
+__Click the button below to launch the course materials in an interactive environment, thanks to the [Binder](http://mybinder.org) service from [The Freeman Lab](http://thefreemanlab.com).__ (Current build of Binder materials: 30-Mar-2016)  
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tobyhodges/ITPP)
 
