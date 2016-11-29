@@ -45,6 +45,6 @@ If you are taking the course, or working through the materials on your own, try 
 
 All materials written by:
 * [Peter D Ashton](https://www.york.ac.uk/biology/research/bioinformatics-biosystems/peter-d-ashton/) (Department of Biology, University of York, UK)
-* [Holger Dinkel](https://git.embl.de/u/dinkel) (Gibson Team, European Molecular Biology Laboratory)
+* [Holger Dinkel](https://git.embl.de/u/dinkel) (formerly of Gibson Team, European Molecular Biology Laboratory)
 * [Toby Hodges](https://www.github.com/tobyhodges) (Zeller Team, European Molecular Biology Laboratory)
-* [Karin Sasaki](https://github.com/karinsasaki) (Centre for Biological Modelling, European Molecular Biology Laboratory)
+* [Karin Sasaki](https://github.com/karinsasaki) (EICAT, European Molecular Biology Laboratory)
