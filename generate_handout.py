@@ -66,7 +66,7 @@ def main ():
 
     tex = re.sub("\\\section\{.*?\}", "", tex, flags=re.DOTALL)  # Delete all sections (would be duplicate)
     tex = re.sub("\\\subsection\{(\d+\. )?", "\\\chapter{", tex) # rename numbered subsections to chapters
-    tex = re.sub("\\\documentclass\{.*?\}", "\\\documentclass{report}", tex) # change documentclass to report
+    tex = re.sub("\\\documentclass\[(\d+pt)\]\{.*?\}", "\\\documentclass[\\1]{report}", tex) # change documentclass to report
     tex = re.sub("\\\maketitle", "\\\\tableofcontents", tex) # include tableof
 
     with open(tex_filename, 'w') as texfile:
