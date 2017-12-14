@@ -3,7 +3,7 @@
 
 __Click the button below to launch the course materials in an interactive environment, thanks to the [Binder](http://mybinder.org) service from [The Freeman Lab](http://thefreemanlab.com).__ (Current build of Binder materials: 27-Sep-2016)  
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/tobyhodges/itpp)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/tobyhodges/ITPP/master)
 
 Welcome to Introduction to Python Programming. The course materials are divided into sections. You can use the links below to view each section in your browser.
 
