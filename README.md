@@ -1,7 +1,7 @@
 # Introduction to Python Programming
 ## A programming course suitable for beginners
 
-__Click the button below to launch the course materials in an interactive environment, thanks to the [Binder](http://mybinder.org) service from [The Freeman Lab](http://thefreemanlab.com).__ (Current build of Binder materials: 27-Sep-2016)  
+__Click the button below to launch the course materials in an interactive environment, thanks to the [Binder](http://mybinder.org) service from [The Freeman Lab](http://thefreemanlab.com).__ (Current build of Binder materials: 17-Jan-2018)  
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/tobyhodges/ITPP/master)
 
